@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/note_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        />
+
+    <TextView
+        android:id="@+id/time_edit_tv"
+        android:gravity="right|end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondary_text"
+        android:textSize="15sp"
+        android:text="2015"/>
+
+
+</LinearLayout>
